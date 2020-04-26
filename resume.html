@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Resume</title>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+        <style>
+            body{
+                background-color: #ECF4FF;
+                font-family: 'Open Sans', sans-serif;
+            }
+            #nav-bar ul{
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                background-color: #29476B;
+                position: fixed;
+                width: 100%;
+                top: 0;
+            }
+            li a{
+                float: left;
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 25px;
+                text-decoration: none;
+                flex-wrap: wrap;
+                
+            }
+            li a:hover{
+                background-color: #2E93A4;
+            }
+            li img{
+                padding: 8px;
+                float: right;
+                margin-right: 10px;
+            }
+            .main{
+                display: flex;
+                flex-wrap: nowrap;
+                flex-direction: column;
+                justify-content: center;
+                align-items: left;
+                padding: 50px;
+                background-color: #fff;
+/*                border-radius: 10px;*/
+/*                width: 95%;*/
+                margin: auto;
+            }
+            .button{
+                background-color: #2E93A4;
+                text-decoration: none;
+                width: 150px;
+                padding: 10px;
+                color: #fff;
+                border-radius: 5px;
+                padding: 10px;
+                font-size: 20px;
+            
+            }
+            .main li{
+                margin: 15px;
+            }
+            .anchor {
+                padding-top: 90px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="nav-bar">
+                    <ul>
+                        <li><a href="#summary">Summary</a></li>
+                        <li><a href="#education">Education</a></li>
+                        <li><a href="#honors">Honors</a></li>
+                        <li><a href="#skills">Skills & Abilities</a></li>
+                        <li><img class="profile-pic" src="/img/img_avatar1.png" style="height: 50px; width: 45px"></li>
+                    </ul>
+                </div>
+        <div class="main">
+            <h3 style="padding-top: 10px; font-style: oblique; font-size: 30px;">Mohammad Sulaiman Behzad</h3>
+            <h4 class="anchor"  id="summary">Summary Statement</h4>
+            <p>Responsible and convergent thinker with an infectious enthusiasm for Computer Engineering. </p>
+            <h4 class="anchor"  id="education">Educational Background</h4>
+            <ul>
+                <li>Herat Afghan-Turk High School <br> High School Diploma, 2015 (GPA 4.0)
+                </li>
+                <li>Ferdowsi University of Mashhad <br>Bachelor of Computer Engineering, 2016 - ongoing 
+                </li>
+            </ul>
+            <h4 class="anchor"  id="honors">Honors and Awards</h4>
+            <ul>
+                <li>National ATCE merit scholarship (40 scholarship recipient from approx. 5000 at 2011)</li>
+                <li>Certificates of Appreciation (2011 – 2015)</li>
+                <li>Certificates of Turkish and English Languages (2015)</li>
+                <li>Object-Oriented Programming in Java UC San Diego (2018)
+
+                </li>
+                <li>Python Programming University of Michigan (2019)
+                </li>
+                <li>Neural Networks & Deep Learning (2020)	</li>
+            </ul>
+            <h4 class="anchor"  id="skills">Skills & Abilities</h4>
+            <h5>Well-Known Languages</h5>
+            <ul>
+                <li> Persian (Native Proficiency)</li>
+                <li> Pashto	 (Minimum Pro-Proficiency)</li>
+                <li>English (Full Professional Proficiency, TOEFL (iBT) score: 101/120)</li>
+                <li>Turkish (Professional Proficiency)</li>
+            </ul>
+            <h5>Technical Skills</h5>
+            <ul>
+                <li>C#, C, C++, Java, Python, .NET, Verilog, HTML, CSS, JavaScript </li>
+            </ul>
+            <a class="button" href="id-card.html" target="_blank">Back to ID Card</a>
+        </div>
+    </body>
+</html>
